@@ -11,7 +11,7 @@ on how to run economic models with dynare on Oskari Jakonen Master's Thesis
 # run the models
 ---------------------------------------------------------------------------------
 * after obtaining matlab, and dynare and integrating dynare path to matlab, run the models here with:
-* (default run argument is "oskari")
+    * (default run argument is "oskari")
 - "run gk"  
     - runs the base model with six-agent economy and financial intermediary being the banking sector
     - performs basic checks
