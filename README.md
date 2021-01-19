@@ -12,23 +12,23 @@ on how to run economic models with dynare on Oskari Jakonen Master's Thesis
 ---------------------------------------------------------------------------------
 * after obtaining matlab, and dynare and integrating dynare path to matlab, run the models here with:
 * (default run argument is "oskari")
-"run gk"  
-- runs the base model with six-agent economy and financial intermediary being the banking sector
-- performs basic checks
- "run mazelis"
-- runs the model with shadow banking added to financial sector
-- performs basic checks
-"run oskari"
-- runs the model with shadow banking and with altered monetary policy and certain parameters
-- performs basic checks
-"run build"
-- runs a build with shadow banking models (oskari and mazelis) and draws IRF's used in the thesis
-- for the build to have compatible models, the shocks-section of the .mod files have to identical! 
+- "run gk"  
+    - runs the base model with six-agent economy and financial intermediary being the banking sector
+    - performs basic checks
+- "run mazelis"
+    - runs the model with shadow banking added to financial sector
+    - performs basic checks
+- "run oskari"
+    - runs the model with shadow banking and with altered monetary policy and certain parameters
+    - performs basic checks
+- "run build"
+    - runs a build with shadow banking models (oskari and mazelis) and draws IRF's used in the thesis
+    - for the build to have compatible models, the shocks-section of the .mod files have to identical! 
 ---------------------------------------------------------------------------------
 # more information
 ---------------------------------------------------------------------------------
 * for more information on the specific models, check: 
-- "Modelling Shadow Banking in China, a DSGE Approach", chapters 4 and 5
+    - "Modelling Shadow Banking in China, a DSGE Approach", chapters 4 and 5
 ---------------------------------------------------------------------------------
 # modify
 ---------------------------------------------------------------------------------
